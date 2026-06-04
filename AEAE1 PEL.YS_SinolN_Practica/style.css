@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #222;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.capçalera {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    opacity: 0.5;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+
+.documentals {
+    height: 50px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    color: #FFF;
+    float: left;
+    margin: 0px 5px 0 50px;
+}
+
+.peliculas {
+    height: 50px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-items: bottom;
+    color: #FFF;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.seriescabecera {
+    height: 50px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    color: #FFF;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.plus {
+    height: 50px;
+    width: 50px;
+    float: right;
+    position: relative;
+    bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    align-items: right;
+    font-size: 20px;
+    color: #FFF;
+    margin: 0px 10px 0px 5px;
+}
+
+.twitter {
+    height: 50px;
+    width: 70px;
+    float: right;
+    position: relative;
+    bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    align-items: right;
+    font-size: 20px;
+    color: #FFF;
+    margin: 0px 0px 0px 0px;
+}
+
+.facebook {
+    height: 50px;
+    width: 90px;
+    float: right;
+    position: relative;
+    bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    align-items: right;
+    font-size: 20px;
+    color: #FFF;
+    margin: 0px 5px 0px 10px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background-image: url(imatges/logo.png);
+    background-repeat: no-repeat;
+    margin: 5px 20px 5px 20px;
+    position: relative;
+    top: 5px;
+    float: left;
+}
+
+.h2 {
+    clear: both;
+    color: white;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.contenidor {
+    width:  175px;
+    margin: 20px 0px 0px 20px;
+    float: left;
+}
+.contenidor:hover {
+    opacity: 50%;
+}
+
+.portada {
+    background: red;
+    height: 260px;
+    width: 175px;
+    border-radius: 5px;
+}
+
+.titol {
+    margin-top: -10px;
+    color: white;
+    font-weight: bold;
+}
+
+.any {
+    font-size: 14px;
+    float: left;
+    margin-top: -20px;
+    color: white;
+}
+
+.tipus {
+    font-size: 14px;
+    display: flex;
+    float: right;
+    margin-top: -20px;
+    color: white;
+}
+
+.portada.p1 {
+    background-image: url(imatges/1982Koyaanisqatsi.jpg);
+}
+
+.portada.p2 {
+    background-image: url(imatges/2004YTuQueSabes.jpg);
+}
+
+.portada.p3 {
+    background-image: url(imatges/2005Earthlings.jpg);
+}
+
+.portada.p4 {
+    background-image: url(imatges/2007Helvetica.jpg);
+}
+
+.portada.p5 {
+    background-image: url(imatges/2007Sicko.jpg);
+}
+
+.portada.p6 {
+    background-image: url(imatges/2008Zeitgeist2.jpg);
+}
+
+.portada.p7 {
+    background-image: url(imatges/2009ArtAndCopy.jpg);
+}
+
+.portada.p8 {
+    background-image: url(imatges/2009Home.jpg);
+}
+
+.portada.p9 {
+    background-image: url(imatges/2009RipARemixManifesto.jpg);
+}
+
+.portada.p10 {
+    background-image: url(imatges/2010ComprarTirarComprar.jpg);
+}
+
+.portada.p11 {
+    background-image: url(imatges/2010InsideJob.jpg);
+}
+
+.portada.p12 {
+    background-image: url(imatges/2011LaDoctrinaDeShock.jpg);
+    filter: grayscale(60);
+}
+
+.portada.p13 {
+    background-image: url(imatges/2012SearchingForSugarMan.jpg);
+    filter: grayscale(60);
+}
+
+.portada.p14 {
+    background-image: url(imatges/2012TheActOfKilling.jpg);
+    filter: grayscale(60);
+}
+
+.portada.p15 {
+    background-image: url(imatges/2013ElEspirituDel45.jpg);
+    filter: grayscale(60);
+}
+
+.portada.p16 {
+    background-image: url(imatges/XXXXpeli.jpg);
+}
+
+.portada.p17 {
+    background-image: url(imatges/XXXXpeli.jpg);
+}
+
+.portada.p18 {
+    background-image: url(imatges/XXXXpeli.jpg);
+    filter: grayscale(60);
+}
+
+.portada.p19 {
+    background-image: url(imatges/XXXXpeli.jpg);
+    filter: grayscale(60);
+}
+
+.portada.p20 {
+    background-image: url(imatges/XXXXserie.jpg);
+}
+
+.portada.p21 {
+    background-image: url(imatges/XXXXserie.jpg);
+}
+
+.portada.p22 {
+    background-image: url(imatges/XXXXserie.jpg);
+    filter: grayscale(60);
+}
+
+.portada.p23 {
+    background-image: url(imatges/XXXXserie.jpg);
+    filter: grayscale(60);
+}
+
+
+
+

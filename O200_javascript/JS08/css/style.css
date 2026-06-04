@@ -1,0 +1,107 @@
+    #cub {
+        width: 80px;
+        height: 80px;
+        transition: 1s;
+        position: relative;
+        transform-style: preserve-3d;
+    }
+
+    .cara {
+        width: 80px;
+        height: 80px;
+        font-size: 80px;
+        text-align: center;
+        line-height: 80px;
+        margin: auto;
+        position: absolute;
+        top: 0; 
+        left: 0;
+        display: block;
+    }
+
+    .blava {
+        background:skyblue;
+        transform-origin: left;
+        transform: translateZ(-80px);
+    }
+
+    .groga {
+        background: yellow;
+        transform-origin: bottom;
+        transform: rotateX(90deg);
+    }
+
+    .vermella {
+        background: red;
+        transform: rotateY(90deg);
+        transform-origin: left;
+    }
+
+    .rosa {
+        background: pink;
+        transform: rotateY(-90deg);
+        transform-origin: right;
+    }
+
+    .lila {
+        background: violet;
+        transform-origin: top;
+        transform: rotateX(-90deg);
+    }
+
+    .verda {
+        background: greenyellow;
+        transform: rotateX(0deg);
+    }
+
+    .contenidor {
+        margin: 10rem auto;
+        width: 80px;
+        height: 80px;
+        -webkit-perspective: 160px;
+        perspective: 160px;
+    }
+
+
+    .joystick {
+        position: relative;
+        height: 12rem;
+        width: 12rem;
+        margin: auto;
+        color: white;
+    }
+
+    .boto {
+        height: 4rem;
+        width: 4rem;
+        background: black;
+        position: absolute;
+        text-align: center;
+        align-content: center;
+        font-size: 50px;
+        font-family: sans-serif;
+    }
+
+    #amunt {
+        margin: 0 4rem 0 4rem;
+        background-color: green;
+    }
+
+    #dreta {
+        margin: 4rem 0rem 0 8rem;
+        background-color: red;
+    }
+
+    #esquerra {
+        margin: 4rem 0 4rem 0;
+        background-color: darkorchid;
+    }
+
+    #avall {
+        margin: 8rem 0 0 4rem;
+        background-color: blue;
+    }
+
+    #amunt:hover, #dreta:hover, #esquerra:hover, #avall:hover {
+        opacity: 50%;
+    }

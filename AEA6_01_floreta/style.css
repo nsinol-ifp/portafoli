@@ -1,0 +1,110 @@
+
+
+.fulla { 
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 100% 0% 100% 0%;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    transform-origin: 0 100px;
+    background-image: linear-gradient(45deg, blue, yellow, green);
+}
+
+.flor {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 10;
+}
+
+.f1 {
+    transform: rotate(0deg);
+}
+
+.f2 {
+    transform: rotate(60deg);
+    background-color: blue
+}
+
+.f3 {
+    transform: rotate(120deg);
+    background-color: red;
+}
+
+.f4 {
+    transform: rotate(180deg);
+}
+
+.f5 {
+    transform: rotate(240deg);
+    background-color: blue;
+}
+
+.f6 {
+    transform: rotate(300deg);
+    background-color: red;
+}
+
+.cor {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background: blue;
+    position: absolute;
+    transform-origin: 0 100px;
+    top: 125px;
+    left: 125px;  
+    background-image: radial-gradient(yellow, blue); 
+}
+
+.tija {
+    height: 350px;
+    width: 6px;
+    background-color: green;
+    position: absolute;
+    top: 155px;
+    left: 155px;
+    z-index: 1;
+}
+
+.fullat1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 100% 0 100% 0;
+    background-color: green; 
+    position: relative;
+    top: 140px;
+    z-index: 2;
+}
+
+.terra {
+    width: 1000px;
+    height: 10px;
+    background-color: brown;
+    top: 190px;
+    position: relative;
+    z-index: 3;
+}
+
+
+
+@keyframes rotacio {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.conjunt:hover .flor {
+    animation: 0.9s rotacio linear infinite;
+}
+
+.conjunt {
+    width: 300px;
+    height: 500px;
+}

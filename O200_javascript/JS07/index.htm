@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS07</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: ;
+        }
+
+        #sol {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            background-color: orange;
+            float: left;
+            margin: 1rem;
+        }
+
+        #lluna {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            box-shadow: 0.5rem 0rem 0 silver;
+            float: left;
+            margin: 1rem;
+        }
+
+        ul {
+            display: inline-block;
+            margin: 0;
+            float: right;
+        }
+
+        li {
+            display: inline-block;
+            margin: 1rem;
+            font-size: 2rem;
+        }
+
+        #txt {
+            width: 30rem;
+            margin: 3rem auto 1rem auto;
+            clear: both;
+            float: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="sol"></div>
+    <div id="lluna"></div>
+
+    <ul>
+        <li id="a">A</li>
+        <li id="aa">AA</li>
+        <li id="aaa">AAA</li>
+    </ul>
+
+    <p id="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio consequuntur nam, dolor incidunt dicta nobis maiores? Numquam quam architecto exercitationem soluta repudiandae. Doloremque perferendis ab ipsum in ipsam dolore?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae tempora velit sequi eius nihil quia vero sint non dignissimos porro delectus accusamus nulla explicabo, dolore minus assumenda sed, illum excepturi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur culpa ipsam laudantium nobis adipisci et delectus. 
+    Officiis deleniti, dolores, beatae sequi praesentium totam voluptatem nam magnam itaque autem voluptas eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis suscipit ea sint repudiandae. Ducimus nemo quidem omnis laboriosam veritatis. Accusamus veritatis sint ipsam perspiciatis laboriosam itaque asperiores. Iure, sunt.</p>
+
+
+</body>
+
+    <script type="text/javascript" language="javascript">
+        // definim els events
+            document.getElementById('lluna').addEventListener('click', lluna);
+            document.getElementById('sol').addEventListener('click', sol);
+
+        // creem les funcions
+
+            function lluna() {
+                document.body.style.backgroundColor='black';
+                document.body.style.color='white';
+                document.getElementById('a').style.color="white";
+                document.getElementById('aa').style.color="white";
+                document.getElementById('aaa').style.color="white";
+            }
+
+            function sol() {
+                document.body.style.backgroundColor='white';
+                document.body.style.color='black';
+                document.getElementById('a').style.color="black";
+                document.getElementById('aa').style.color="black";
+                document.getElementById('aaa').style.color="black";
+            }
+
+            ///////////////////////////////////////////////////////////////////////////////
+
+            // definim els events
+                document.getElementById('a').addEventListener('click', reduir);
+                document.getElementById('aa').addEventListener('click', normal);
+                document.getElementById('aaa').addEventListener('click', augmentar);
+
+            // creem les funcions
+            
+            function reduir() {
+                document.getElementById('txt').style.fontSize="0.5rem";
+            }
+
+            function normal() {
+                document.getElementById('txt').style.fontSize="1rem";
+            }
+
+            function augmentar() {
+                document.getElementById('txt').style.fontSize="2rem";
+            }
+        
+
+
+    </script>
+</html>

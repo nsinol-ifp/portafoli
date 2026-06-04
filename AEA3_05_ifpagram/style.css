@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.contenidor {
+    width: 1716px;
+    margin: auto;
+}
+
+.nav {
+    height: 166px;
+}
+
+.friends {
+    height: 180px;
+    width: 1300px;
+    margin: auto;
+}
+
+.pics {
+    height: 1860px;
+}
+
+.logo {
+    height: 45px;
+    width: 215px;
+    background-color: white;
+    float: left;
+    margin: 40px 0 0 0;
+    background-image:url(img/logo.jpg)
+}
+
+.menu {
+    height: 37px;
+    width: 299px;
+    float: left;
+    margin: 40px 0 0 493px;
+
+    
+}
+
+.menu ul li {
+    width: 40px;
+    height: 40px;
+
+    margin: 0 10px;
+    float: left;
+    display: block;
+    background-image: url(img/menu.jpg)
+}
+
+.menu ul li:hover {
+    opacity: 0.6;
+}
+
+.inici {
+    background-position:-8px -2px;
+}
+
+.cerca {
+    background-position: -93px -2px;
+}
+
+.directes {
+    background-position: -174px 0;
+}
+
+.favorits {
+    background-position: -259px -0px;
+
+}
+
+.menu ul {
+    margin: 0;
+}
+
+.perfil {
+    width: 96px;
+    height: 120px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.foto  {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    float: left;
+    background-image:url(img/foto-perfil.jpg);    border: brown 5px solid;
+    box-shadow: inset 0px 0px 10px white;
+}
+
+.nil {
+    background-image:url(fotos/1035445_pau_cubarsi_20240914123715.png);
+    float: left;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+}
+
+.marc {
+    background-image:url(../img/); 
+}
+
+
+.perfil:hover {
+    opacity: 1;
+}
+
+
+.afegir {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+    border: 5px solid white;
+    text align: center;
+    position: relative;
+    left: 70px;
+    bottom: 70px;
+    color: white;
+    line-height: 20px;
+}
+
+.post {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+}
+
+.imatge {
+    height: 536px;
+    width: 536px;
+    background-image: url(fotos/1035445_pau_cubarsi_20240914123715.png);
+    background-size: cover;
+}
+
+.info {
+    width: 268px;
+    height: 84px;
+    float: left;
+}
+
+.reaccions {
+    width: 268px;
+    height: 84px;
+    float: left;
+}
+
+.autor {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+}
+
+.usuari {
+    height: 25px;
+    width: 198px;
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+.quan {
+    height: 25px;
+    width: 198px;
+    margin: 0;
+    float: left;
+    font-size: 12px;
+    color: grey;
+}
+
+.likes {
+    height: 25px;
+    width: 90px;
+    float: left;
+    color: black;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.cors {
+    height: 25px;
+    width: 50%;
+    margin: 10px 0 0 0;
+    margin-top: 10px;
+    float: left;
+    background-image: url(img/menu.jpg);
+    background-position: -109px 0;
+    background-size: 210%;
+    background-repeat: no-repeat;
+    background-color: yellow;
+}
+
+.mes {
+    height: 25px;
+    color: black;
+    width: 20px;
+    float: right;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.i1 {
+    background-image: url(img/ifpagram_14.jpg);
+}
+
+.i2 {
+    background-image: url(img/ifpagram_16.jpg);
+}
+
+.i3 {
+    background-image: url(img/ifpagram_18.jpg);
+}
+
+.i4 {
+    background-image: url(img/ifpagram_23.jpg);
+}
+.i5 {
+    background-image: url(img/ifpagram_24.jpg);
+}
+
+.i6 {
+    background-image: url(img/ifpagram_25.jpg);
+}
+
+.i7 {
+    background-image: url(img/ifpagram_30.jpg);
+}
+
+.i8 {
+    background-image: url(img/ifpagram_31.jpg);
+}
+
+.i9 {
+    background-image: url(img/ifpagram_32.jpg);
+}
+
+.a1 {
+    background-image: url(fotos/636688-1662836200.webp);
+}
+
+.a2 {
+    background-image: url(img/651388_ansu_fati_20250922104806.png)
+}
+
+.a3 {
+    background-image: url(img/1238678_lamine_yamal_20250128161849.png);
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+}
+
+.cor {
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 8px;
+  background: #dd;
+  position: relative;
+  background-image: url(https://www.svgrepo.com/show/86601/favourite-heart.svg);
+  background-size: 1rem 1rem;
+}
+
+.cor label {
+  display: block;
+  width:  1rem;
+  height: 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-image:       url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/A_perfect_SVG_heart.svg/684px-A_perfect_SVG_heart.svg.png?20180121090836);
+  background-size: 1rem 1rem;
+  float: left;
+}
+
+.cor input[type=checkbox]:checked+label {
+  opacity: 1;
+}

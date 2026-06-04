@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    font-family: helvetica, arial, sans-serif;
+ }
+
+h1{
+    color: purple;
+    text-align: center;
+    text-shadow: 1px 1px 4px grey;
+}
+.contenidor{
+    width: 1280px;
+    margin: auto;
+}
+
+.cap{
+    height: 120px;
+}
+.cos{
+    overflow: auto;
+    overflow: hidden;
+    overflow:visible ;
+    overflow: scroll;
+}
+
+.peu{
+    background-color:black;
+    height: 300px;
+}
+
+li{
+    background: white;
+    height: 50px;
+    width: 180px;
+    margin: 10px;
+    float: left;
+}
+
+.esquerra, .centre, .dreta {
+    width: 20%;
+    float:left ;
+}
+.esquerra{
+}
+
+.centre{
+    background-color: purple;
+    width: 60%;
+    overflow: scroll;
+    color: white;
+    height: 600px;
+}
+.dreta{
+    background-color: yellowgreen;
+}
+
+p{
+    text-indent: 50px;
+    padding: 10px;
+}
+
+
+
+/* Codi del menú hamburguesa */
+
+
+#alternador h1 {
+  margin-left: 6.5rem;
+}
+
+#alternador {
+  width: 5rem;
+  height: 5rem; 
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+#alternador label {
+  width: 5rem;
+  height: 4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding-top: 1rem;
+  opacity: 1;
+}
+
+#alternador b {
+  display: block;
+  width: 4rem;
+  height: 0.5rem;
+  background: red;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+#alternador input[type="checkbox"] {
+  visibility: hidden;
+}
+
+
+
+#alternador ul {
+  margin-top: 3rem;
+  list-style-type: none;
+  padding: 0;
+  width: 15rem; 
+  background-image: linear-gradient(red, orange);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+#alternador li {
+  background: transparent;
+  border: solid 1px whit;
+  line-height: 2.5rem;
+  padding: 0rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 0.5rem;
+  height: 3rem;
+  margin: 0 auto;
+  float: none;
+}
+
+#alternador a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#alternador li:hover {
+  background-color: gold;
+  box-shadow: inset 0 0 5px black;
+  border-radius: 0.5rem;
+}
+
+.desplega {
+  position: absolute;
+  left: -20rem;
+  opacity: 1;
+  transition: all .5s ease;
+}
+
+#alternador input[type=checkbox]:checked+label {
+  opacity: 1;
+}
+
+#alternador input[type=checkbox]:checked+label~.desplega {
+  left: 0;
+}
+
+
+/* Aquí comença elements responsius */
+
+@media (max-width:480px)
+{
+    #alternador {
+      display: block; 
+    }
+
+    .menuhoritzontal {
+      display: none;
+    }
+}
+
+@media (min-width:481px) and (max-width:1279px)
+{
+    #alternador {
+      display: block;
+    }
+
+    .menuhoritzontal {
+      display: none;
+    }
+}
+
+@media (min-width:1280px)
+{
+    #alternador {
+      display: none;
+    }
+
+    .menuhoritzontal {
+      display: block;
+    }
+}
